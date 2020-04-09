@@ -1,0 +1,217 @@
+* {
+  font-size: 100%;
+}
+
+body {
+  font-family: "open-sans", sans-serif;
+  margin: 0px;
+  font-size: 100%;
+}
+
+.pacman {
+  width: 50%;
+  position: relative;
+  top: 30vh;
+  left: 25%;
+}
+
+.pacman circle {
+  stroke: #ffa41b;
+  fill: none;
+  stroke-dasharray: 126,100;
+  stroke-dashoffset: -15;
+  stroke-width: 50%;
+  -webkit-animation: chomp 0.3s linear infinite alternate;
+          animation: chomp 0.3s linear infinite alternate;
+}
+
+@-webkit-keyframes chomp {
+  from {
+    stroke-dasharray: 157,100;
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dasharray: 126,100;
+    stroke-dashoffset: -15;
+  }
+}
+
+@keyframes chomp {
+  from {
+    stroke-dasharray: 157,100;
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dasharray: 126,100;
+    stroke-dashoffset: -15;
+  }
+}
+
+.expand {
+  border: 8px solid #ffa41b;
+  border-radius: 50%;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  top: 0px;
+  width: 100vw;
+  background-color: #000000;
+  color: #eeeeee;
+  z-index: 1;
+}
+
+nav ul #one {
+  margin-right: 25vw;
+  margin-left: 5vw;
+}
+
+nav ul #two,
+nav ul #three,
+nav ul #four {
+  margin-right: 2vw;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bolder;
+  width: 15%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul li:hover {
+  background-color: #ffa41b;
+  color: black;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  row-gap: 0px;
+}
+
+#landing {
+  background-color: #121212;
+}
+
+#landing #opanim {
+  width: 40vw;
+}
+
+#landing #opening {
+  width: 60vw;
+}
+
+#landing #opening #intro {
+  margin: auto;
+  text-align: center;
+  margin-top: 35vh;
+  font-size: 3.5rem;
+  line-height: 1vh;
+  font-weight: bold;
+  color: #ffa41b;
+}
+
+#landing #opening #intro span {
+  color: #eeeeee;
+  text-shadow: 5px 5px 10px #111111, -5px -5px 10px #333333;
+}
+
+#about {
+  background-color: #333333;
+  height: 150vh;
+  text-align: center;
+  color: #eeeeee;
+}
+
+#about #myself {
+  width: 50vw;
+}
+
+#about #myself #bio {
+  width: 80%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+#about #myself #bio div {
+  height: 40vh;
+}
+
+#about #myself #bio #mine {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffa41b;
+}
+
+#about #vitae {
+  width: 50vw;
+}
+
+#about #vitae #coder {
+  width: 80%;
+  margin-top: 5vh;
+  background-color: #000000;
+  font-family: monospace;
+  line-height: 4vh;
+}
+
+#contact {
+  background-color: #121212;
+}
+
+#contact #conform {
+  width: 50vw;
+}
+
+#contact #conform #formbox {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15vh;
+  font-size: 1.2rem;
+  color: #eeeeee;
+}
+
+#contact #conform #formbox input, #contact #conform #formbox textarea, #contact #conform #formbox #btn {
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+  width: 60%;
+  border: 0px;
+}
+
+#contact #conform #formbox input {
+  height: 5vh;
+}
+
+#contact #conform #formbox textarea {
+  width: 70%;
+  height: 30vh;
+}
+
+#contact #conform #formbox #btn {
+  color: #ffa41b;
+  width: 80%;
+  height: 5vh;
+  border-radius: 30%;
+}
+
+#contact #conform #formbox a {
+  color: #ffa41b;
+}
+
+#contact #conform #formbox a:hover {
+  background-color: #ffa41b;
+}
+
+#contact #superman {
+  width: 50vw;
+}
+/*# sourceMappingURL=portf.css.map */

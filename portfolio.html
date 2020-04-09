@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damilola Anasanwo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=open+sans">
+    <link rel="stylesheet" href="main/portf.css">
+    <!-- <script src="portfo.js"></script> -->
+
+</head>
+
+<body>
+    <div class="cursor"></div>
+    </div>
+    <nav>
+        <ul>
+            <li id="one">about me</li>
+            <li id="two">blog</li>
+            <li id="three">projects</li>
+            <li id="four">contact me</li>
+        </ul>
+    </nav>
+
+    <div class="box" id="landing">
+        <div id="opanim">
+            <svg class="pacman" viewbox="0 0 100 100">
+                <circle cx="50%" cy="50%" r="25%" />
+              </svg>
+        </div>
+
+        <div id="opening">
+            <div id="intro">
+                <p>Hi. My name is <span>Damilola</span>.</p>
+                <p> &lt; Developer &#62 </p>
+                <p>Designer.</p>
+                <p>Illustrator.</p>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="about">
+
+        <div id="myself">
+            <div id="bio">
+                <p id="mine">About Me</p>
+                <div><img src="" alt="" srcset=""></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div id="vitae">
+            <div id="coder">
+                <p> let Damilola = new Superhero() </p>
+                <p> Damilola = { </p>
+                <p> fullName : "Damilola Anasanwo", <br>
+                    email : ["danasanwo@gmail.com", "jacktradoofficial@gmail.com"], <br>
+                    superpowers: ["Front-end Development", "Back-end Development", <br>
+                    "UX design", "Ilustration", "Product -Agile Management", <br>
+                    "Content Creation"]
+                    favouritePower: "Front-end Development" <br>
+                    Tools: ["html", "css", "Javascript", "bootstrap","jquery","node js" <br>
+                    "git and github", "npm", "vue js", "anime js", ]
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="contact">
+        <div id="conform">
+            <div id="formbox">
+                <p id="start">Do you have an exciting project? </p>
+                <p>Are you looking for a fellow Superhero to save the world ? </p>
+                <form action="">
+                    <input type="text" name="Name" placeholder="Name">
+                    <input type="email" name="Email" id="Email" placeholder="Email">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <div id="btn"><button type="submit">Submit</button></div>
+                </form>
+
+                <p>You can message me directly: <a href="mailto:danasanwo@gmail.com "> danasanwo@gmail.com </a></p>
+            </div>
+        </div>
+        <div id="superman">
+
+        </div>
+    </div>
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener("mousemove", e => {
+            cursor.setAttribute("style", "top: " + (e.pageY -10) + "px; left: " + (e.pageX - 10) + "px; ")
+        })
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 200)
+        })
+    </script>
+</body>
+
+</html>
