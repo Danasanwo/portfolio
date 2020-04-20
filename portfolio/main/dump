@@ -1,0 +1,75 @@
+
+// .cursor {
+//   width: 30px;
+//   height: 30px;
+//   background-color: white;
+//   opacity: 0.5;
+//   z-index: 0;
+//   border: 1px solid white;
+//   border-radius: 50%;
+//   position: absolute;
+//   animation: cursorAnim 0.5s infinite alternate;
+// }
+
+// @keyframes cursorAnim {
+//   from {
+//     transform: scale(1);
+//   }
+//   to {
+//     transform: scale(1.2);
+//   }
+// }
+
+// .cursor::after {
+//   content: "";
+//   width: 30px;
+//   height: 30px;
+//   position: absolute;
+//   border: 8px solid grey;
+//   border-radius: 50%;
+//   opacity: .5;
+//   top: -8px;
+//   left: -8px;
+// }
+
+// .pacman {
+//   width: 50%;
+//   position: relative;
+//   top: 30vh;
+//   left: 25%;
+// }
+// .pacman circle {
+//   stroke: $accent;
+//   fill: none;
+//   stroke-dasharray: 126,100;
+//   stroke-dashoffset: -15;
+//   stroke-width: 50%;
+//   animation: chomp 0.3s linear infinite alternate;
+// }
+
+// // @keyframes chomp {
+//   from {
+//     stroke-dasharray: 157,100;
+//     stroke-dashoffset: 0;
+//   }
+//   to {
+//     stroke-dasharray: 126,100;
+//     stroke-dashoffset: -15;
+//   }
+// }
+
+
+// .expand {
+//   border: 8px solid $accent;
+//   border-radius: 50%;
+// }
+
+// #opanim {
+  //   width: 40vw;
+  // }
+
+  <!-- <div id="opanim">
+            <svg class="pacman" viewbox="0 0 100 100">
+                <circle cx="50%" cy="50%" r="25%" />
+              </svg>
+        </div> -->

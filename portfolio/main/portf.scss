@@ -1,0 +1,189 @@
+
+$myfont: "open-sans", sans-serif;
+$firstboxColor: #121212;
+$secondboxColor: #333333;
+$thirdboxColor: #555555;
+$accent: #ffa41b;
+$fullwidth: 100vw;
+$fullHeight: 100vh;
+$textColor: #eeeeee;
+$halfwidth: 50vw;
+$altFont: "Montserrat", sans-serif;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $myfont;
+  margin: 0px;
+  background-color: $firstboxColor;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  top: 0px;
+  font-family: "Montserrat", sans-serif;
+  width: $fullwidth;
+  background-color: #000000;
+  color: $textColor;
+  z-index: 1;
+  ul {
+    #one {
+      margin: 0 16vw 0 14vw;
+    }
+    #two,
+    #three,
+    #four {
+      margin-right: 2vw;
+      
+    }
+    li {
+      list-style-type: none;
+      display: inline-block;
+      font-weight: bolder;
+      max-width: 15%;
+      min-width: 15%;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px; 
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $accent;
+      }
+    }
+   
+  }
+}
+
+.box {
+  display: flex;
+  height: $fullHeight;
+  row-gap: 0px;
+  margin: 0;
+}
+
+  #opening {
+    max-width: $fullwidth;
+    background-color: $firstboxColor;
+    margin: 0;
+    height: $fullHeight;
+    #intro {
+      text-align: center;
+      margin-top: 35vh;
+      font-size: 350%;
+      line-height: 1vh;
+      font-weight: bold;
+      color: $accent;
+      span {
+        color: $textColor;
+        text-shadow: 5px 5px 10px #111111, -5px -5px 10px #333333;
+      }
+    }
+  }
+
+#about {
+  background-color: $secondboxColor;
+  height: $fullHeight;
+  color: $textColor;
+  margin: 0;
+  #myself {
+    width: $halfwidth;
+    #bio {
+      max-width: 80%;
+      margin: auto;
+      margin-top: 10vh;
+      text-align: center;
+      div {
+        max-height: 60vh;
+        svg {
+          height: 60vh;
+          border-radius: 30vh;
+        }
+      }
+      #mine {
+        font-size: 200%;
+        font-weight: bold;
+        color: $accent;
+      }
+    }
+  }
+  #vitae {
+    width: $halfwidth;
+    #graphy {
+      font-size: 80%;
+      font-family: "Montserrat", sans-serif;
+      margin: 20vh auto 0vh;
+      width: 90%;
+   }
+  }
+}
+
+#contact {
+  background-color: $firstboxColor;
+  margin: 0;
+  #conform {
+    width: $halfwidth;
+    #coder {
+      max-width: 80%;
+      margin-top: 10vh;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #000000;
+      font-family: monospace;
+      
+      text-align: left;
+      color: white;
+      span {
+        color: chocolate;
+      }
+    }
+    #CV {
+      display: block;
+      margin: auto;
+      max-width: 30%;
+      max-height: 4vh;
+      background-color: $accent;
+      text-align: center;
+      border-radius: 10vh;
+      margin-top: 10vh;
+      text-decoration: none;
+      color: $firstboxColor;
+      padding: 2vh;
+      font-size: 120%;
+      font-weight: 600;
+      font-family: $altFont;
+    }
+
+    #CV:hover {
+      background-color: $secondboxColor;
+      color: $accent;
+    }
+    
+  }
+   
+  #superman {
+    width: $halfwidth;
+    #formbox {
+      max-width: 80%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15vh;
+      font-size: 120%;
+      font-family: $altFont;
+      color: $textColor;
+
+       a {
+         text-decoration: none;
+         color: $accent;
+       }
+    }
+  }
+ }

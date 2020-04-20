@@ -1,0 +1,193 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "open-sans", sans-serif;
+  margin: 0px;
+  background-color: #121212;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  top: 0px;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  background-color: #000000;
+  color: #eeeeee;
+  z-index: 1;
+}
+
+nav ul #one {
+  margin: 0 16vw 0 14vw;
+}
+
+nav ul #two,
+nav ul #three,
+nav ul #four {
+  margin-right: 2vw;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bolder;
+  max-width: 15%;
+  min-width: 15%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffa41b;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  row-gap: 0px;
+  margin: 0;
+}
+
+#opening {
+  max-width: 100vw;
+  background-color: #121212;
+  margin: 0;
+  height: 100vh;
+}
+
+#opening #intro {
+  text-align: center;
+  margin-top: 35vh;
+  font-size: 350%;
+  line-height: 1vh;
+  font-weight: bold;
+  color: #ffa41b;
+}
+
+#opening #intro span {
+  color: #eeeeee;
+  text-shadow: 5px 5px 10px #111111, -5px -5px 10px #333333;
+}
+
+#about {
+  background-color: #333333;
+  height: 100vh;
+  color: #eeeeee;
+  margin: 0;
+}
+
+#about #myself {
+  width: 50vw;
+}
+
+#about #myself #bio {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#about #myself #bio div {
+  max-height: 60vh;
+}
+
+#about #myself #bio div svg {
+  height: 60vh;
+  border-radius: 30vh;
+}
+
+#about #myself #bio #mine {
+  font-size: 200%;
+  font-weight: bold;
+  color: #ffa41b;
+}
+
+#about #vitae {
+  width: 50vw;
+}
+
+#about #vitae #graphy {
+  font-size: 80%;
+  font-family: "Montserrat", sans-serif;
+  margin: 20vh auto 0vh;
+  width: 90%;
+}
+
+#contact {
+  background-color: #121212;
+  margin: 0;
+}
+
+#contact #conform {
+  width: 50vw;
+}
+
+#contact #conform #coder {
+  max-width: 80%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  font-family: monospace;
+  text-align: left;
+  color: white;
+}
+
+#contact #conform #coder span {
+  color: chocolate;
+}
+
+#contact #conform #CV {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  max-height: 4vh;
+  background-color: #ffa41b;
+  text-align: center;
+  border-radius: 10vh;
+  margin-top: 10vh;
+  text-decoration: none;
+  color: #121212;
+  padding: 2vh;
+  font-size: 120%;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact #conform #CV:hover {
+  background-color: #333333;
+  color: #ffa41b;
+}
+
+#contact #superman {
+  width: 50vw;
+}
+
+#contact #superman #formbox {
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  font-size: 120%;
+  font-family: "Montserrat", sans-serif;
+  color: #eeeeee;
+}
+
+#contact #superman #formbox a {
+  text-decoration: none;
+  color: #ffa41b;
+}
+/*# sourceMappingURL=portf.css.map */

@@ -1,0 +1,53 @@
+@media (max-width: 650px) {
+  html {
+    font-size: 70%;
+  }
+  nav ul li {
+    max-width: 18%;
+    font-size: 75%;
+    font-family: "Montserrat", sans-serif;
+  }
+  nav ul #one {
+    margin: 0 15vw 0 5vw;
+  }
+  .box {
+    display: block;
+  }
+  #opening {
+    display: block;
+    font-size: 60%;
+  }
+  #about {
+    min-height: 110vh;
+  }
+  #about #myself {
+    width: 100vw;
+    display: block;
+  }
+  #about #myself #bio {
+    margin: 10vh auto 0;
+  }
+  #about #myself #bio div {
+    max-height: 40vh;
+  }
+  #about #myself #bio div svg {
+    height: 30vh;
+    border-radius: 30vh;
+  }
+  #about #vitae {
+    width: 100vw;
+    display: block;
+  }
+  #about #vitae #graphy {
+    margin: 10vh auto;
+  }
+  #contact #conform {
+    width: 100vw;
+    display: block;
+  }
+  #contact #superman {
+    width: 100vw;
+    display: block;
+  }
+}
+/*# sourceMappingURL=media.css.map */

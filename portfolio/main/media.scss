@@ -1,0 +1,76 @@
+
+$myfont: "open-sans", sans-serif;
+$firstboxColor: #121212;
+$secondboxColor: #333333;
+$thirdboxColor: #555555;
+$accent: #ffa41b;
+$fullwidth: 100vw;
+$fullHeight: 100vh;
+$textColor: #eeeeee;
+$halfwidth: 50vw;
+$altFont: "Montserrat", sans-serif;
+
+@media (max-width: 650px) {
+    html {
+        font-size: 70%;
+    }
+
+    nav {
+        ul {
+            li {
+                max-width: 18%;
+                font-size: 75%;
+                font-family: $altFont;
+            }
+            #one {
+                margin: 0 15vw 0 5vw;
+            }
+        }
+    }
+
+    .box {
+        display: block;
+    }
+    
+    #opening {
+            display: block;
+            font-size: 60%;
+    
+        }
+
+    #about {
+        min-height: 110vh;
+        #myself {
+
+            width: $fullwidth;
+            display: block;
+            #bio {
+                margin: 10vh auto 0;
+                div {
+                    max-height: 40vh;
+                    svg {
+                      height: 30vh;
+                      border-radius: 30vh;
+                    }
+                  }
+            }
+        }
+        #vitae {
+            width: $fullwidth;
+            display: block;
+            #graphy {
+                margin: 10vh auto;
+            }
+        }
+    }
+    #contact {
+        #conform {
+            width: $fullwidth;
+            display: block;
+        }
+        #superman {
+            width: $fullwidth;
+            display: block;
+        }
+    }
+}

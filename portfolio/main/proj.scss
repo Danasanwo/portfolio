@@ -1,0 +1,87 @@
+$myfont: "open-sans", sans-serif;
+$firstboxColor: #121212;
+$secondboxColor: #333333;
+$thirdboxColor: #555555;
+$accent: #ffa41b;
+$fullwidth: 100vw;
+$fullHeight: 100vh;
+$textColor: #eeeeee;
+$halfwidth: 50vw;
+
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: $myfont;
+    margin: 0px;
+    background: $firstboxColor;
+  }
+
+.box {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    top: 0px;
+    font-family: "Montserrat", sans-serif;
+    width: $fullwidth;
+    color: $textColor;
+    z-index: 1;
+    ul {
+      #one {
+        margin-right: 16vw;
+        margin-left: 14vw;
+      }
+      #two,
+      #three,
+      #four {
+        margin-right: 2vw;
+      }
+      
+      li {
+        list-style-type: none;
+        display: inline-block;
+        font-weight: bolder;
+        width: 15%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        a:hover {
+          color: $accent;
+        }
+      }
+     
+    }
+  }
+  
+
+
+#web:hover, #ux:hover, #draw:hover, #content:hover {
+    background-color: $accent;
+      color: $firstboxColor;
+}
+
+#web, #ux, #draw, #content {
+
+    height: 25vh;
+    background: $firstboxColor;
+    color: $accent;
+    font-size: 500%;
+    
+    p {
+        margin-left: 5rem;
+        margin-top: 2rem;
+        cursor: auto;
+    }
+}
+
+
